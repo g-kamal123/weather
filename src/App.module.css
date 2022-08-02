@@ -1,0 +1,14 @@
+*,*::after,*::before{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  /* background-image: linear-gradient(to right, rgba(76, 71, 71, 0.5),rgba(77, 50, 50, 0.5)),url('https://rapidapi.com/blog/wp-content/uploads/2017/12/sunset-3021386_1920-768x456.jpg'); */
+}
+@media (max-width:480px){
+  .app{
+    display: flex;
+    flex-wrap: wrap;
+    /* width: max-content; */
+  }
+}

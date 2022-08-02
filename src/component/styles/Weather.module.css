@@ -1,0 +1,69 @@
+.weatherimages img{
+    height: 4rem;
+    width: 4rem;
+}
+.rain{
+    background-image: url(https://i.pinimg.com/originals/c1/a9/3a/c1a93a1d0de0059a3119b8b1a55ce582.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.overcast{
+    background-image: url(https://i.gifer.com/7RtV.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mist{
+    background-image: url(https://i.pinimg.com/originals/cc/51/a3/cc51a378a4accec027b87361dab54217.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cloudy{
+    background-image: url(  https://i.gifer.com/origin/dd/ddedd3a2f4a3995d8cd1a8ab2033c9ce.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.clear{
+    background-image: url(https://i.makeagif.com/media/9-29-2015/muLhJl.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sun{
+    background-image: url(https://i.gifer.com/2Xfx.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h2{
+    color: whitesmoke;
+}
+.body{
+    display: flex;
+    gap: 2rem;
+}
+.tmpair{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.weath{
+    margin: 0 0 0 8%;
+}
+.weath input{
+    font-size: 1.2rem;
+    padding: 1%;
+    border: none;
+    border-bottom: 1px solid black;
+    background: none;
+    color: whitesmoke;
+}
+.weath input:focus{
+    outline-width: 0;
+}
+@media (max-width:660px){
+    .weath{
+        margin: 0;
+    }
+    .tmpair{
+        width: min-content;
+    }
+}

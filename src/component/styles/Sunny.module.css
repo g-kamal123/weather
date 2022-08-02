@@ -1,0 +1,29 @@
+.sunny1{
+    box-shadow: 0 4px 8px rgb(0,0,0,0.26);
+    width: 25rem;
+    padding: 2% 5% 2% 2%;
+    border-radius: 14px;
+    color: whitesmoke;
+    background-color: rgb(110, 110, 156,0.4);
+}
+.today{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: baseline; */
+}
+.today p{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.wind{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.wind p{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4em;
+}

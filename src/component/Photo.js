@@ -1,0 +1,1 @@
+const icons = [{type:'Sunny', source:'https://i.pinimg.com/originals/53/22/c2/5322c2cad533e12e552d0dfdc89b4c25.png'}]
